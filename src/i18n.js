@@ -11,22 +11,22 @@ i18n
     interpolation: {
       escapeValue: false,
     },
-    // resources: {
-    //     en: {
-    //       translation: {
+    resources: {
+        en: {
+          translation: {
              
-    //           "Welcome to React" : "Welcome to React"
+              "Welcome to React" : "Welcome to React"
             
-    //       }
-    //     },
-    //     ru: {
-    //       translation: {
+          }
+        },
+        ru: {
+          translation: {
              
-    //             "Welcome to React" :"учи реакт"
+                "Welcome to React" :"учи реакт"
             
-    //       }
-    //     }
-    //   }
+          }
+        }
+      }
     });
 
 
