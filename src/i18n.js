@@ -4,29 +4,29 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 i18n
   .use(LanguageDetector)
-  .use(initReactI18next)fit 
+  .use(initReactI18next) 
   .init({
     debug: true,
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
     },
-    resources: {
-        en: {
-          translation: {
+    // resources: {
+    //     en: {
+    //       translation: {
              
-              "Welcome to React" : "Welcome to React"
+    //           "Welcome to React" : "Welcome to React"
             
-          }
-        },
-        ru: {
-          translation: {
+    //       }
+    //     },
+    //     ru: {
+    //       translation: {
              
-                "Welcome to React" :"учи реакт"
+    //             "Welcome to React" :"учи реакт"
             
-          }
-        }
-      }
+    //       }
+    //     }
+    //   }
     });
 
 
